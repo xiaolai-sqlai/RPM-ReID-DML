@@ -137,13 +137,13 @@ Recall@1:0.945914 Recall@10:0.988043 Recall@20:0.991560 Recall@30:0.993459 Recal
 ```bash
 python train.py --net regnet_y_1_6gf --decoder rpm_max --img-height 224 --img-width 224 --batch-size 24 --lr 5.0e-2 --dataset university1652 --gpus 0 --epochs 3,15 --instance-num 6 --erasing 0.1 --num-part 2 --num-stripe 0 --use-global True --triplet-weight 1.0 --feat-num 256 --ada-gamma 0.10 --freeze stem --dataset-root ../datasets --ema-ratio 0.80 --ema-extra 15
 ```
-top1:0.922967 top5:0.950071 top10:0.952924 mAP:0.900724
-top1:0.897081 top5:0.964364 top10:0.973742 mAP:0.912387
+<font>top1:0.922967 top5:0.950071 top10:0.952924 mAP:0.900724</font>
+<font>top1:0.897081 top5:0.964364 top10:0.973742 mAP:0.912387</font>
 ```bash
 python train.py --net regnet_y_1_6gf_prelu --decoder rpm_max --img-height 224 --img-width 224 --batch-size 24 --lr 5.0e-2 --dataset university1652 --gpus 0 --epochs 3,15 --instance-num 6 --erasing 0.1 --num-part 2 --num-stripe 0 --use-global True --triplet-weight 1.0 --feat-num 256 --ada-gamma 0.10 --freeze stem --dataset-root ../datasets --ema-ratio 0.80 --ema-extra 15
 ```
-top1:0.927247 top5:0.950071 top10:0.955777 mAP:0.901062
-top1:0.897715 top5:0.966108 top10:0.975802 mAP:0.913270
+<font>top1:0.927247 top5:0.950071 top10:0.955777 mAP:0.901062</font>
+<font>top1:0.897715 top5:0.966108 top10:0.975802 mAP:0.913270</font>
 
 ## Contact
 If you have any questions, please contact us by email(laishenqi@qq.com).
